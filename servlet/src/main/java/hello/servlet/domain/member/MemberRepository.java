@@ -21,6 +21,8 @@ public class MemberRepository {
         return instance;
     }
 
+
+    //private로 막아놔서 new MemberRepository로 생성 불가
     private MemberRepository() {
     }
 
